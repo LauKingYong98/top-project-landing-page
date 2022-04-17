@@ -1,0 +1,306 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header, .footer {
+    height: 50px;
+    background-color: #5b5194;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+    gap: 20px;
+}
+
+.header-left {
+    justify-content: flex-start;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+.header-name {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    height: 50px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.content-leon-summary {
+    display: flex;
+    justify-content: center;
+    background-color: #5b5194;
+    padding: 50px 0px 0px 0px;
+}
+
+.content-left {
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-right {
+    width: 400px;
+    padding: 20px;
+}
+
+.content-left-1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px 40px;
+}
+
+.content-left-2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: justify;
+    padding: 10px 40px;
+
+}
+
+.content-left-3 {
+    padding: 5px 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#button1 {
+    border-radius: 10px;
+    background-color: #E5E7EB;
+    padding: 5px 20px;
+    flex-shrink: 1;
+    text-align: center;
+    color: rgb(36, 37, 46);
+}
+
+.content-leon-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 80px 0px 40px 0px;
+}
+
+.content-leon-team-1, .content-leon-team-2 {
+    width: 1200px;
+}
+
+.content-leon-team-1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-leon-team-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 0px;
+}
+
+ul {    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.img3 {
+    border-radius: 10px;
+}
+
+#pokemon-property {
+    border-radius: 10px;
+    background-color: #E5E7EB;
+    padding: 5px;
+    text-align: center;
+    color: rgb(36, 37, 46);
+}
+
+.pokemon1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(203, 203, 219);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.pokemon2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(145, 117, 243);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.pokemon3 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(145, 117, 243);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.pokemon4 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(188, 224, 226);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.pokemon5 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(151, 173, 240);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.pokemon6 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(232, 167, 115);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.leon-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 0px 80px 0px;
+    background-color: #5b5194;
+}
+
+.quote-top {
+    width: 1000px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 24px;
+    font-style: italic;
+    color: #F9FAF8;
+}
+
+.quote-bottom {
+    width: 1000px;
+    padding: 10px;
+    text-align: end;
+    font: 16px;
+    font-style: italic;
+    color: #F9FAF8;
+}
+
+.reference {
+    display: flex;
+    padding: 80px 0px 80px 0px;
+    justify-content: center;
+}
+
+.ref-1 {
+    width: 1000px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #5b5194;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ref-left {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 100px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.ref-left-1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.ref-left-2 {
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.ref-right {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#button2 {
+    border-radius: 10px;
+    background-color: #9c96be;
+    padding: 10px 40px;
+    text-align: center;
+    color: rgb(36, 37, 46);
+    color: #F9FAF8;
